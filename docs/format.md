@@ -61,3 +61,32 @@ console.log(phoneUtil.format(number, PNF.NATIONAL));
 console.log(phoneUtil.format(number, PNF.INTERNATIONAL));
 // => +1 300-577-8989
 ```
+
+### PhoneNumberFormat
+
+The following enums is used to pass to format(number, numberFormat).
+
+<table>
+  <tr>
+    <th>Enum</th>
+    <th width="100%">Value</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td>E164</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>INTERNATIONAL</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>NATIONAL</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>RFC3966</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>

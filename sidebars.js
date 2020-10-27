@@ -8,6 +8,15 @@ module.exports = {
     ],
     'PhoneNumberUtil': [
       'format',
+      'formatInOriginalFormat',
+      'formatOutOfCountryCallingNumber',
+      'getNumberType',
+      'getRegionCodeForNumber',
+      'isPossibleNumber',
+      'isValidNumber',
+      'isValidNumberForRegion',
+      'parseAndKeepRawInput',
+      'parse',
     ],
   },
 };
