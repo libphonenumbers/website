@@ -4,7 +4,7 @@ sidebar_label: getNumberType
 title: getNumberType
 description: getNumberType | PhoneNumberUtil.getNumberType | Libphonenumbers
 image: /img/reactpatterns-cover.png
-keywords: ['libphonenumbers', PhoneNumberUtil, 'PhoneNumberUtil.formatOutOfCountryCallingNumber', 'getNumberType']
+keywords: ['libphonenumbers', PhoneNumberUtil, 'PhoneNumberUtil.getNumberType', 'getNumberType']
 permalink: 
 version: getNumberType
 ---
