@@ -18,5 +18,13 @@ module.exports = {
       'parseAndKeepRawInput',
       'parse',
     ],
+    'PhoneNumber': [
+      'getCountryCode',
+      'getCountryCodeSource',
+      'getExtension',
+      'getItalianLeadingZero',
+      'getNationalNumber',
+      'getRawInput',
+    ],
   },
 };
