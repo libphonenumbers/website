@@ -1,15 +1,15 @@
 ---
-id: isValidShortNumber
-sidebar_label: isValidShortNumber
-title: isValidShortNumber
-description: isValidShortNumber | ShortNumberInfo.isValidShortNumber | Libphonenumbers
+id: isValidShortNumberForRegion
+sidebar_label: isValidShortNumberForRegion
+title: isValidShortNumberForRegion
+description: isValidShortNumberForRegion | ShortNumberInfo.isValidShortNumberForRegion | Libphonenumbers
 image: /img/libphonenumbers-cover.png
-keywords: ['libphonenumbers', ShortNumberInfo, 'ShortNumberInfo.isValidShortNumber', 'isValidShortNumber']
+keywords: ['libphonenumbers', ShortNumberInfo, 'ShortNumberInfo.isValidShortNumberForRegion', 'isValidShortNumberForRegion']
 permalink: 
-version: isValidShortNumber
+version: isValidShortNumberForRegion
 ---
 
-isValidShortNumber(number) is used to checks whether a short number is a valid number.
+isValidShortNumberForRegion(number, regionDialingFrom) is used to checks whether a short number matches a valid pattern in a region.
 
 ### Usage
 
@@ -25,8 +25,8 @@ const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
 // Parse number with US country code and keep raw input
 const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
-// Check 202-456-2121 is valid short number
-console.log(shortInfo.isValidShortNumber(number));
+// Check 202-456-2121 is valid short number for US region
+console.log(shortInfo.isValidShortNumberForRegion(number, 'US'));
 // false
 ```
 
@@ -44,7 +44,7 @@ const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 // Parse number with US country code and keep raw input
 const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
-// Check 202-456-2121 is valid short number
-console.log(shortInfo.isValidShortNumber(number));
+// Check 202-456-2121 is valid short number for US region
+console.log(shortInfo.isValidShortNumberForRegion(number, 'US'));
 // false
 ```
