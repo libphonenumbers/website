@@ -18,6 +18,10 @@ module.exports = {
       'parseAndKeepRawInput',
       'parse',
     ],
+    'AsYouTypeFormatter': [
+      'inputDigit',
+      'clear',
+    ],
     'PhoneNumber': [
       'getCountryCode',
       'getCountryCodeSource',
