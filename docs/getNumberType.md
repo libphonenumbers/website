@@ -3,7 +3,7 @@ id: getNumberType
 sidebar_label: getNumberType
 title: getNumberType
 description: getNumberType | PhoneNumberUtil.getNumberType | Libphonenumbers
-image: /img/reactpatterns-cover.png
+image: /img/libphonenumbers-cover.png
 keywords: ['libphonenumbers', PhoneNumberUtil, 'PhoneNumberUtil.getNumberType', 'getNumberType']
 permalink: 
 version: getNumberType
@@ -24,7 +24,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get type of phone number
 console.log(phoneUtil.getNumberType(number));
-// => 2 // FIXED_LINE_OR_MOBILE
+// 2 // FIXED_LINE_OR_MOBILE
 ```
 
 Using ECMAScript (ES):
@@ -40,7 +40,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get type of phone number
 console.log(phoneUtil.getNumberType(number));
-// => 2 // FIXED_LINE_OR_MOBILE
+// 2 // FIXED_LINE_OR_MOBILE
 ```
 
 ### PhoneNumberType

@@ -3,7 +3,7 @@ id: isPossibleNumber
 sidebar_label: isPossibleNumber
 title: isPossibleNumber
 description: isPossibleNumber | PhoneNumberUtil.isPossibleNumber | Libphonenumbers
-image: /img/reactpatterns-cover.png
+image: /img/libphonenumbers-cover.png
 keywords: ['libphonenumbers', PhoneNumberUtil, 'PhoneNumberUtil.isPossibleNumber', 'isPossibleNumber']
 permalink: 
 version: isPossibleNumber
@@ -24,7 +24,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Check is possible number
 console.log(phoneUtil.isPossibleNumber(number));
-// => true
+// true
 ```
 
 Using ECMAScript (ES):
@@ -40,5 +40,5 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Check is possible number
 console.log(phoneUtil.isPossibleNumber(number));
-// => true
+// true
 ```

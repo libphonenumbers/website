@@ -3,7 +3,7 @@ id: formatInOriginalFormat
 sidebar_label: formatInOriginalFormat
 title: formatInOriginalFormat
 description: formatInOriginalFormat | PhoneNumberUtil.formatInOriginalFormat | Libphonenumbers
-image: /img/reactpatterns-cover.png
+image: /img/libphonenumbers-cover.png
 keywords: ['libphonenumbers', PhoneNumberUtil, 'PhoneNumberUtil.formatInOriginalFormat', 'formatInOriginalFormat']
 permalink: 
 version: formatInOriginalFormat
@@ -20,11 +20,11 @@ Using Standard JavaScript:
 const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
 
 // Parse number with US country code and keep raw input
-const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Format number in the original format
 console.log(phoneUtil.formatInOriginalFormat(number, 'US'));
-// => (300) 577-8989
+// => (202) 456-2121
 ```
 
 Using ECMAScript (ES):
@@ -36,9 +36,9 @@ import libphonenumbers from 'libphonenumbers';
 const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
 // Parse number with US country code and keep raw input
-const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Format number in the original format
 console.log(phoneUtil.formatInOriginalFormat(number, 'US'));
-// => (300) 577-8989
+// (202) 456-2121
 ```

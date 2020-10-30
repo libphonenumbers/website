@@ -3,7 +3,7 @@ id: isValidNumber
 sidebar_label: isValidNumber
 title: isValidNumber
 description: isValidNumber | PhoneNumberUtil.isValidNumber | Libphonenumbers
-image: /img/reactpatterns-cover.png
+image: /img/libphonenumbers-cover.png
 keywords: ['libphonenumbers', PhoneNumberUtil, 'PhoneNumberUtil.isValidNumber', 'isValidNumber']
 permalink: 
 version: isValidNumber
@@ -24,7 +24,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get is valid number
 console.log(phoneUtil.isValidNumber(number));
-// => true
+// true
 ```
 
 Using ECMAScript (ES):
@@ -40,5 +40,5 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get is valid number
 console.log(phoneUtil.isValidNumber(number));
-// => true
+// true
 ```

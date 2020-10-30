@@ -3,7 +3,7 @@ id: getRawInput
 sidebar_label: getRawInput
 title: getRawInput
 description: getRawInput | PhoneNumber.getRawInput | Libphonenumbers
-image: /img/reactpatterns-cover.png
+image: /img/libphonenumbers-cover.png
 keywords: ['libphonenumbers', PhoneNumber, 'PhoneNumber.getRawInput', 'getRawInput']
 permalink: 
 version: getRawInput
@@ -24,7 +24,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get the phone's raw input
 console.log(number.getRawInput());
-// => 202-456-2121
+// 202-456-2121
 ```
 
 Using ECMAScript (ES):
@@ -40,5 +40,5 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get the phone's raw input
 console.log(number.getRawInput());
-// => 202-456-2121
+// 202-456-2121
 ```

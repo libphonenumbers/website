@@ -2,9 +2,9 @@
 id: getCountryCode
 sidebar_label: getCountryCode
 title: getCountryCode
-description: getCountryCode | PhoneNumberUtil.getCountryCode | Libphonenumbers
-image: /img/reactpatterns-cover.png
-keywords: ['libphonenumbers', PhoneNumberUtil, 'PhoneNumberUtil.getCountryCode', 'getCountryCode']
+description: getCountryCode | PhoneNumber.getCountryCode | Libphonenumbers
+image: /img/libphonenumbers-cover.png
+keywords: ['libphonenumbers', PhoneNumber, 'PhoneNumber.getCountryCode', 'getCountryCode']
 permalink: 
 version: getCountryCode
 ---
@@ -24,7 +24,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get the phone's country code
 console.log(number.getCountryCode());
-// => 1
+// 1
 ```
 
 Using ECMAScript (ES):
@@ -40,5 +40,5 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get the phone's country code
 console.log(number.getCountryCode());
-// => 1
+// 1
 ```

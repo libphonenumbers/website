@@ -3,7 +3,7 @@ id: isValidNumberForRegion
 sidebar_label: isValidNumberForRegion
 title: isValidNumberForRegion
 description: isValidNumberForRegion | PhoneNumberUtil.isValidNumberForRegion | Libphonenumbers
-image: /img/reactpatterns-cover.png
+image: /img/libphonenumbers-cover.png
 keywords: ['libphonenumbers', PhoneNumberUtil, 'PhoneNumberUtil.isValidNumberForRegion', 'isValidNumberForRegion']
 permalink: 
 version: isValidNumberForRegion
@@ -24,7 +24,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Check number of a region is valid
 console.log(phoneUtil.isValidNumberForRegion(number, 'US'));
-// => true
+// true
 ```
 
 Using ECMAScript (ES):
@@ -40,5 +40,5 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Check number of a region is valid
 console.log(phoneUtil.isValidNumberForRegion(number, 'US'));
-// => true
+// true
 ```

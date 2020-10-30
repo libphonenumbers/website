@@ -26,5 +26,12 @@ module.exports = {
       'getNationalNumber',
       'getRawInput',
     ],
+    'ShortNumberInfo': [
+      'connectsToEmergencyNumber',
+      'isPossibleShortNumber',
+      'isPossibleShortNumberForRegion',
+      'isValidShortNumber',
+      'isValidShortNumberForRegion',
+    ],
   },
 };

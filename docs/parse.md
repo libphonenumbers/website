@@ -3,7 +3,7 @@ id: parse
 sidebar_label: parse
 title: parse
 description: parseAndKeepRawInput | PhoneNumberUtil.parse | Libphonenumbers
-image: /img/reactpatterns-cover.png
+image: /img/libphonenumbers-cover.png
 keywords: ['libphonenumbers', PhoneNumberUtil, 'PhoneNumberUtil.parse', 'parse']
 permalink: 
 version: parse

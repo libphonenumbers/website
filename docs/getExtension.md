@@ -2,9 +2,9 @@
 id: getExtension
 sidebar_label: getExtension
 title: getExtension
-description: getExtension | PhoneNumberUtil.getExtension | Libphonenumbers
+description: getExtension | PhoneNumber.getExtension | Libphonenumbers
 image: /img/reactpatterns-cover.png
-keywords: ['libphonenumbers', PhoneNumberUtil, 'PhoneNumberUtil.getExtension', 'getExtension']
+keywords: ['libphonenumbers', PhoneNumber, 'PhoneNumber.getExtension', 'getExtension']
 permalink: 
 version: getExtension
 ---
@@ -22,9 +22,9 @@ const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
 // Parse number with US country code and keep raw input
 const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
-// Print the phone's extension.
+// Print the phone's extension
 console.log(number.getExtension());
-// => null
+// null
 ```
 
 Using ECMAScript (ES):
@@ -38,7 +38,7 @@ const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 // Parse number with US country code and keep raw input
 const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
-// Print the phone's extension.
+// Print the phone's extension
 console.log(number.getExtension());
 // => null
 ```

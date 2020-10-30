@@ -3,8 +3,8 @@ id: installation
 sidebar_label: Installation
 title: Installation
 description: Installation | Libphonenumbers
-image: /img/reactpatterns-cover.png
-keywords: ['libphonenumbers']
+image: /img/libphonenumbers-cover.png
+keywords: ['libphonenumbers', 'libphonenumbers installation']
 permalink: 
 version: Installation
 ---

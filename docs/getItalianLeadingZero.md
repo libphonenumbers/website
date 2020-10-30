@@ -3,7 +3,7 @@ id: getItalianLeadingZero
 sidebar_label: getItalianLeadingZero
 title: getItalianLeadingZero
 description: getItalianLeadingZero | PhoneNumber.getItalianLeadingZero | Libphonenumbers
-image: /img/reactpatterns-cover.png
+image: /img/libphonenumbers-cover.png
 keywords: ['libphonenumbers', PhoneNumber, 'PhoneNumber.getItalianLeadingZero', 'getItalianLeadingZero']
 permalink: 
 version: getItalianLeadingZero
@@ -24,7 +24,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get phone's italian leading zero
 console.log(number.getItalianLeadingZero());
-// => null
+// null
 ```
 
 Using ECMAScript (ES):
@@ -40,5 +40,5 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get phone's italian leading zero
 console.log(number.getItalianLeadingZero());
-// => null
+// null
 ```

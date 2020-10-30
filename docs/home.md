@@ -3,7 +3,7 @@ id: home
 sidebar_label: Introduction
 title: Introduction
 description: Introduction | Libphonenumbers
-image: /img/introduction.png
+image: /img/libphonenumbers-cover.png
 keywords: ['libphonenumbers', 'libphonenumbers introduction']
 permalink: 
 version: Introduction

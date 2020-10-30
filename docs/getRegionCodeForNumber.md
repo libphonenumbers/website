@@ -3,7 +3,7 @@ id: getRegionCodeForNumber
 sidebar_label: getRegionCodeForNumber
 title: getRegionCodeForNumber
 description: getRegionCodeForNumber | PhoneNumberUtil.getRegionCodeForNumber | Libphonenumbers
-image: /img/reactpatterns-cover.png
+image: /img/libphonenumbers-cover.png
 keywords: ['libphonenumbers', PhoneNumberUtil, 'PhoneNumberUtil.getRegionCodeForNumber', 'getRegionCodeForNumber']
 permalink: 
 version: getRegionCodeForNumber
@@ -24,7 +24,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get region code of number
 console.log(phoneUtil.getRegionCodeForNumber(number));
-// => US
+// US
 ```
 
 Using ECMAScript (ES):
@@ -40,5 +40,5 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get region code of number
 console.log(phoneUtil.getRegionCodeForNumber(number));
-// => US
+// US
 ```
